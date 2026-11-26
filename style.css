@@ -1,0 +1,146 @@
+
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f5;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background: #064e3b;
+    padding: 15px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 20px;
+}
+
+
+/* Hero */
+
+.hero {
+    background: linear-gradient(
+        135deg,
+        #064e3b,
+        #059669
+    );
+
+    color: white;
+    padding: 90px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+/* Section */
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #064e3b;
+}
+
+
+/* Match Cards */
+
+.match-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+    height: 100%;
+}
+
+.match-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.team-name {
+    font-size: 19px;
+    font-weight: bold;
+    color: #064e3b;
+}
+
+.match-score {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.match-status {
+    color: #059669;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    background: #059669;
+}
+
+.filter-btn {
+    margin: 5px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+/* Footer */
+
+footer {
+    background: #064e3b;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+}
